@@ -2,19 +2,22 @@
 
 @import url('https://fonts.googleapis.com/css?family=Quicksand|Spectral');
 
-body{
-    margin:0;
-}
-
 html {
-    background-color: lightgray;
-    font-family: 'Poor-Story', sans-serif;
+    background-image: url("/images/moutains.jpg");
+    background-repeat: no-repeat;
+    background-color: #fff;
+    font-family: 'Quicksand', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
 }
-::selection {
+
+/* ::selection {
     color: #000; 
     background: #ff0;
+} */
+
+body {
+    margin: 0;
 }
 
 h1 {
@@ -23,10 +26,11 @@ h1 {
     background: #fff;
     line-height: 2.5em;
 }
-/* Adds google font to H1 for Main pages */
-h1.page-header{
-    font-family: 'Caveat',serif;
-    font-size: 300%;
+
+/* Adds google font to H1 for main pages */
+h1.page-header {
+    font-family: 'Spectral', sans-serif;
+    
 }
 
 main.wrapper {
@@ -45,13 +49,13 @@ h2,h3 {
 }
 
 a {
-    color:darkcyan;
+    color:#2A93D5;
     text-decoration: none;
 }
 
 a:hover {
     color: whitesmoke;
-    background-color: darkcyan;
+    background-color: #2A93D5;
     text-decoration: none;
 }
 
@@ -76,7 +80,7 @@ footer {
     }
     
     picture.profile img {
-        width: 30%;
+        width: 50%;
         float: left;
         margin-right: 2em;
     }
@@ -120,6 +124,8 @@ footer {
     
 }
 
-h1.notice{
-    background-color: aqua;
-}
+/* Image Citation
+https://unsplash.com/photos/7UYE15RyWp8
+
+
+*/
